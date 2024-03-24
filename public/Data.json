@@ -1,0 +1,147 @@
+[
+  {
+    "id": 1,
+    "picture": "https://i.ibb.co/0Kg3k5F/ivan-aleksic-PDRFee-Dni-Ck-unsplash.jpg",
+    "title": "Support Education Initiative",
+    "category": "Education",
+    "category_bg": "#ff5733",
+    "card_bg": "#ffcc99",
+    "text_button_bg": "#ff5733",
+    "button_text_color": "#000000",
+    "description": "Provide school supplies and scholarships to children in low-income communities to ensure they have access to quality education.Provide school supplies and scholarships to children in low-income communities to ensure they have access to quality education.Provide school supplies and scholarships to children in low-income communities to ensure they have access to quality education.",
+    "price": "300"
+  },
+  {
+    "id": 2,
+    "picture": "https://i.ibb.co/7Y115mj/kenny-eliason-z-FSo6bn-ZJTw-unsplash.jpg",
+    "title": "Educational Scholarships Program",
+    "category": "Education",
+    "category_bg": "#ff9933",
+    "card_bg": "#ffe0b3",
+    "text_button_bg": "#ff9933",
+    "button_text_color": "#3366ff",
+    "description": "Offer scholarships to underprivileged students to help them pursue higher education and break the cycle of povertyOffer scholarships to underprivileged students to help them pursue higher education and break the cycle of poverty.Offer scholarships to underprivileged students to help them pursue higher education and break the cycle of poverty..",
+    "price": "350"
+  },
+  {
+    "id": 3,
+    "picture": "https://i.ibb.co/Wy9Hk10/headway-5-Qg-Iuu-Bx-Kw-M-unsplash.jpg",
+    "title": "Digital Learning Resources",
+    "category": "Education",
+    "category_bg": "#ffcc66",
+    "card_bg": "#fff2cc",
+    "text_button_bg": "#ffcc66",
+    "button_text_color": "#9900cc",
+    "description": "Provide access to online learning platforms and digital resources for students and teachers in underserved communities.Provide access to online learning platforms and digital resources for students and teachers in underserved communities.Provide access to online learning platforms and digital resources for students and teachers in underserved communities.",
+    "price": "400"
+  },
+  {
+    "id": 4,
+    "picture": "https://i.ibb.co/gSTLgmt/ray-hennessy-x-UUZcp-Qlqp-M-unsplash.jpg",
+    "title": "Animal Shelter Support",
+    "category": "Animal Welfare",
+    "category_bg": "#cc6600",
+    "card_bg": "#ffdab3",
+    "text_button_bg": "#cc6600",
+    "button_text_color": "#ffcc00",
+    "description": "Support local animal shelters by providing food, medical care, and adoption programs for stray and abandoned animalsSupport local animal shelters by providing food, medical care, and adoption programs for stray and abandoned animals.Support local animal shelters by providing food, medical care, and adoption programs for stray and abandoned animals..",
+    "price": "450"
+  },
+  {
+    "id": 5,
+    "picture": "https://i.ibb.co/F4gK4Kd/jordan-whitt-Eerxzt-HCj-M8-unsplash.jpg",
+    "title": "Wildlife Conservation Fund",
+    "category": "Animal Welfare",
+    "category_bg": "#996600",
+    "card_bg": "#ffcc99",
+    "text_button_bg": "#996600",
+    "button_text_color": "#cc9900",
+    "description": "Contribute to the protection and preservation of endangered species and their habitats through conservation efforts.Contribute to the protection and preservation of endangered species and their habitats through conservation efforts.Contribute to the protection and preservation of endangered species and their habitats through conservation efforts.",
+    "price": "500"
+  },
+  {
+    "id": 6,
+    "picture": "https://i.ibb.co/xX0jx2C/wynand-van-poortvliet-4-Amy-Od-XZAQc-unsplash.jpg",
+    "title": "Animal Rights Advocacy",
+    "category": "Animal Welfare",
+    "category_bg": "#663300",
+    "card_bg": "#cc9966",
+    "text_button_bg": "#663300",
+    "button_text_color": "#996600",
+    "description": "Advocate for animal rights and welfare by promoting legislation, awareness campaigns, and ethical treatment of animals.Advocate for animal rights and welfare by promoting legislation, awareness campaigns, and ethical treatment of animals.Advocate for animal rights and welfare by promoting legislation, awareness campaigns, and ethical treatment of animals.",
+    "price": "550"
+  },
+  {
+    "id": 7,
+    "picture": "https://i.ibb.co/grNmfpC/alice-dietrich-Fw-F-f-Kj5t-Bo-unsplash.jpg",
+    "title": "Cultural Arts Festival",
+    "category": "Arts and Culture",
+    "category_bg": "#ffcc00",
+    "card_bg": "#fff2cc",
+    "text_button_bg": "#ffcc00",
+    "button_text_color": "#cc9900",
+    "description": "Organize community events and cultural festivals showcasing music, dance, art, and cuisine from diverse cultures.Advocate for animal rights and welfare by promoting legislation, awareness campaigns, and ethical treatment of animals.Advocate for animal rights and welfare by promoting legislation, awareness campaigns, and ethical treatment of animals.",
+    "price": "600"
+  },
+  {
+    "id": 8,
+    "picture": "https://i.ibb.co/LRmKqJB/marty-o-neill-Jo-yp-JVt8g-Q-unsplash.jpg",
+    "title": "Art Education Program",
+    "category": "Arts and Culture",
+    "category_bg": "#ffcc99",
+    "card_bg": "#ffffcc",
+    "text_button_bg": "#ffcc99",
+    "button_text_color": "#cc6600",
+    "description": "Provide art classes, workshops, and resources to children and adults to foster creativity and self-expression.Advocate for animal rights and welfare by promoting legislation, awareness campaigns, and ethical treatment of animals.Advocate for animal rights and welfare by promoting legislation, awareness campaigns, and ethical treatment of animals.",
+    "price": "650"
+  },
+  {
+    "id": 9,
+    "picture": "https://i.ibb.co/4Tnt74n/bernd-dittrich-7lx-J6-CQJK-E-unsplash.jpg",
+    "title": "Cultural Heritage Preservation",
+    "category": "Arts and Culture",
+    "category_bg": "#ff9966",
+    "card_bg": "#ffcc99",
+    "text_button_bg": "#ff9966",
+    "button_text_color": "#cc3300",
+    "description": "Preserve and promote traditional arts, crafts, and cultural practices to safeguard cultural heritage for future generations.Advocate for animal rights and welfare by promoting legislation, awareness campaigns, and ethical treatment of animals.Advocate for animal rights and welfare by promoting legislation, awareness campaigns, and ethical treatment of animals.",
+    "price": "700"
+  },
+  {
+    "id": 10,
+    "picture": "https://i.ibb.co/4Tnt74n/bernd-dittrich-7lx-J6-CQJK-E-unsplash.jpg",
+    "title": "Sustainable Agriculture Initiative",
+    "category": "Environment",
+    "category_bg": "#33cc33",
+    "card_bg": "#d9ffcc",
+    "text_button_bg": "#33cc33",
+    "button_text_color": "#ffffff",
+    "description": "Promote sustainable farming practices, agroforestry, and organic agriculture to ensure food security and environmental conservation.Advocate for animal rights and welfare by promoting legislation, awareness campaigns, and ethical treatment of animals.Advocate for animal rights and welfare by promoting legislation, awareness campaigns, and ethical treatment of animals.",
+    "price": "750"
+  },
+  {
+    "id": 11,
+    "picture": "https://i.ibb.co/4Tnt74n/bernd-dittrich-7lx-J6-CQJK-E-unsplash.jpg",
+    "title": "Disaster Relief Fund",
+    "category": "Humanitarian Aid",
+    "category_bg": "#3399ff",
+    "card_bg": "#cce0ff",
+    "text_button_bg": "#3399ff",
+    "button_text_color": "#ffffff",
+    "description": "Provide emergency assistance, shelter, and resources to communitiesAdvocate for animal rights and welfare by promoting legislation, awareness campaigns, and ethical treatment of animals.Advocate for animal rights and welfare by promoting legislation, awareness campaigns, and ethical treatment of animals.Advocate for animal rights and welfare by promoting legislation, awareness campaigns, and ethical treatment of animals.",
+    "price": "750"
+  },
+  {
+    "id": 12,
+    "picture": "https://i.ibb.co/4Tnt74n/bernd-dittrich-7lx-J6-CQJK-E-unsplash.jpg",
+    "title": "Mental Health Awareness Campaign",
+    "category": "Healthcare",
+    "category_bg": "#ff6666",
+    "card_bg": "#ffd9d9",
+    "text_button_bg": "#ff6666",
+    "button_text_color": "#ffffff",
+    "description": "Raise awareness about mental health issues, reduce stigma, and promote access to mental health services and support.Advocate for animal rights and welfare by promoting legislation, awareness campaigns, and ethical treatment of animals.Advocate for animal rights and welfare by promoting legislation, awareness campaigns, and ethical treatment of animals.Advocate for animal rights and welfare by promoting legislation, awareness campaigns, and ethical treatment of animals.",
+    "price": "850"
+}
+
+]
