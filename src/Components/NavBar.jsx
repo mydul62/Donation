@@ -12,11 +12,10 @@ const NavBar = () => {
     <ul className="menu menu-horizontal px-1 items-center  *:text-[18px]">
       <li className=" text-[red]"><Link to={'/'}>Home</Link></li>
       <li><Link to={'/donation'} >Donation</Link></li>
-      <li><Link to={'/statistic'} >Statictics</Link></li>
+      <li><Link to={'/statistics'} >Statictics</Link></li>
     </ul>
   </div>
 </div>
   );
 };
-
 export default NavBar;

@@ -1,26 +1,26 @@
-import { useEffect, useState } from "react";
-import { getDonation } from "../../Hooks/Localstorage/Localstorage";
+
 import {
   Card,
   CardHeader,
   Typography,
 } from "@material-tailwind/react";
+import UseLocalStorageData from "../../Hooks/UseLocalStorageData/UseLocalStorageData";
+import { useState } from "react";
 
 const Donation = () => {
-  const [donation, setDonation] = useState([]);
-
-  useEffect(() => {
-    setDonation(getDonation());
-  }, []);
-
+  const [show,setShow]=useState(false);
+  const handleShowMore = ()=>{
+      setShow(!show);
+  }
+  const {donation}= UseLocalStorageData()
   return (
    <>
     <div className="grid max-w-7xl mx-auto grid-cols-1 gap-6 md:grid-cols-2">
-      {donation.map((data) => (
+      {donation.slice(0,show?donation.length:4).map((data) => (
         <Card style={{
           backgroundColor:data.card_bg
         }}
-          key={data.id} className="w-full max-w-[48rem] gap-4 items-center flex-row"
+          key={data.id} className="w-full max-w-[48rem] gap-4 items-center flex-row rounded-xl"
         >
           <CardHeader
             shadow={false}
@@ -34,14 +34,20 @@ const Donation = () => {
             />
           </CardHeader>
           <div className="space-y-4">
-            <button className="bg-secondary py-1 px-2 rounded-md">
+            <button style={{
+              backgroundColor:data.category_bg,
+              color:data.button_text_color
+            }} className="bg-secondary py-1 px-2 rounded-md">
               {data.category}
             </button>
             <Typography className="text-2xl font-semibold text-[#0B0B0B]">
               {data.title}
             </Typography>
             <h3 className="font-semibold text-[#0052FF]">${data.price}</h3>
-            <button className="text-[18px] font-semibold bg-secondary py-2 px-3 rounded-md">
+            <button style={{
+              backgroundColor:data.text_button_bg,
+              color:data.button_text_color
+            }} className="text-[18px] font-semibold bg-secondary py-2 px-3 rounded-md">
               View Details
             </button>
           </div>
@@ -49,8 +55,8 @@ const Donation = () => {
       ))}
     
     </div>
-    <div className=" flex justify-center my-6">
-     <button className="btn btn-primary px-6 ">Show more</button>
+    <div onClick={handleShowMore} className=" flex justify-center my-6">
+     <button className="btn btn-primary px-6 font-bold">{!show?'Show more':'Show less'}</button>
      </div>
    </>
     
