@@ -1,11 +1,14 @@
 import { useEffect, useState } from "react";
-import { getDonation } from "../Localstorage/Localstorage";
+import { deleteDonation, getDonation } from "../Localstorage/Localstorage";
 
 const UseLocalStorageData = () => {
   const [donation, setDonation] = useState([]);
   useEffect(() => {
     setDonation(getDonation());
+    const {newDonation } = deleteDonation();
+    setDonation(newDonation)
   }, []);
+  
 
   return {donation}
   
